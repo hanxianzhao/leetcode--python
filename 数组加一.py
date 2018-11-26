@@ -11,6 +11,9 @@
 输出: [4,3,2,2]
 解释: 输入数组表示数字 4321。
 '''
+'''
+超过36.64%
+'''
 def func(digits):
     a = len(digits) - 1
     while digits[a] == 9:
