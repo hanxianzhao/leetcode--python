@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/动态规划-爬楼梯.py" line="26" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e074121-9b5e-43bc-98f6-24efcd83f5b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/动态规划-最大子序和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4e074121-9b5e-43bc-98f6-24efcd83f5b5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +42,11 @@
       <file leaf-file-name="动态规划-最大子序和.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/动态规划-最大子序和.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="529">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <marker date="1543935461738" expanded="true" signature="476:482" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -519,7 +519,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23659517" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -892,8 +892,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/动态规划-最大子序和.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="529">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <marker date="1543935461738" expanded="true" signature="476:482" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

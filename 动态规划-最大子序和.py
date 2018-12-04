@@ -9,13 +9,9 @@
 '''
 
 '''
-超过50.26%
+超过99.66%
 '''
 def func(nums):
-    if len(nums) == 0:
-        return None
-    if len(nums) == 1:
-        return nums[0]
     a = 0
     result = nums[0]
     for i in nums:
@@ -27,5 +23,5 @@ def func(nums):
     return result
 
 def func2(nums):
-    
+
 print(func([-2]))
