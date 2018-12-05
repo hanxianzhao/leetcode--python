@@ -22,6 +22,6 @@ def func(nums):
             a = 0
     return result
 
-def func2(nums):
+# def func2(nums):
 
 print(func([-2]))
