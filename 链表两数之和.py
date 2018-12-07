@@ -7,6 +7,9 @@
 输出：7 -> 0 -> 8
 原因：342 + 465 = 807
 '''
+'''
+超过70.65%
+'''
 class ListNode:
     def __init__(self, x):
         self.val = x
@@ -23,33 +26,29 @@ class Solution:
         cur = l3
         while l1 != None or l2 != None:
             if l1 == None:
-                if l2.val >= 10:
-                    l3.next = ListNode(l2.val - 10)
-                    l3.next.next = ListNode(1)
-                else:
-                    l3.next = l2
-                break
-            if l2 == None:
-                if l1.val >= 10:
-                    l3.next = ListNode(l1.val - 10)
-                    l3.next.next = ListNode(1)
-                else:
-                    l3.next = l1
-                break
-            
-            a = l1.val + l2.val
+                m = 0
+                n = l2.val
+                l2 = l2.next
+            elif l2 == None:
+                m = l1.val
+                n = 0
+                l1 = l1.next
+            else:
+                m = l1.val
+                n = l2.val
+                l1 = l1.next
+                l2 = l2.next
+            a = m + n
             if a >= 10:
                 a = a - 10
-                if l1.next != None:
-                    l1.next.val += 1
-                elif l2.next != None:
-                    l2.next.val += 1
+                if l1 != None:
+                    l1.val += 1
+                elif l2 != None:
+                    l2.val += 1
                 else:
                     l3.next = ListNode(a)
                     l3.next.next = ListNode(1)
                     break
             l3.next = ListNode(a)
-            l1 = l1.next
-            l2 = l2.next
             l3 = l3.next
         return cur.next

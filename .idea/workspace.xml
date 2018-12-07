@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e074121-9b5e-43bc-98f6-24efcd83f5b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/链表两数之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/链表两数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表两数之和.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="链表两数之和.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/链表两数之和.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="275">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -872,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/链表两数之和.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="275">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="51" />
         </state>
       </provider>
     </entry>
