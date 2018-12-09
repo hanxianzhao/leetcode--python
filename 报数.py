@@ -11,22 +11,31 @@
 给定一个正整数 n（1 ≤ n ≤ 30），输出报数序列的第 n 项。
 注意：整数顺序将表示为一个字符串。
 '''
-
+'''
+超过97.82%
+'''
 def func(n):
     if n == 1:
         return "1"
     str1 = "1"
-    while True:
-        b = 0
-        c = 1
+    cur = 1
+    newstr = ""
+    while cur < n :
+        b = str1[0]
+        c = 0
         newstr = ""
-        for i in str1:
-            if i == b:
+        for i in range(len(str1)):
+            if str1[i] == b:
                 c += 1
             else:
-                newstr = newstr + str(c) + str(b)
-                b = i
-        break
+                newstr = newstr + str(c) + b
+                b = str1[i]
+                c = 1
+            if i == len(str1) - 1:
+                newstr = newstr + str(c) + b
+        cur += 1
+        str1 = newstr
     return newstr
-print(func(2))
+
+print(func(4))
 
