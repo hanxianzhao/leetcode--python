@@ -13,6 +13,9 @@ B:     b1 → b2 → b3
 可假定整个链表结构中没有循环。
 程序尽量满足 O(n) 时间复杂度，且仅用 O(1) 内存。
 '''
+'''
+超过96.55%
+'''
 class ListNode(object):
     def __init__(self, x):
         self.val = x
@@ -24,6 +27,10 @@ class Solution(object):
         :type head1, head1: ListNode
         :rtype: ListNode
         """
+        if headA == None or headB == None:
+            return None
+        cura = headA
+        curb = headB
         lena = 1
         lenb = 1
         while True:
@@ -39,5 +46,16 @@ class Solution(object):
         if headA != headB:
             return None
         else:
-            if lena > lenb:
-                
+            if lena >= lenb:
+                while lena != lenb:
+                    cura = cura.next
+                    lena -= 1
+            else:
+                while lena != lenb:
+                    curb = curb.next
+                    lenb -= 1
+            while True:
+                if cura == curb:
+                    return cura
+                cura = cura.next
+                curb = curb.next
