@@ -22,6 +22,6 @@
 # print(MergeSort([1, 2, 3, 4, 5, 6, 7, 90, 21, 23, 45]))
 
 a = 1
-b = "2"
-c = b + str(a)
-print(c)
+b = None
+print(a > b)
+# print(c)
