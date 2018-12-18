@@ -21,7 +21,10 @@
 #     return result
 # print(MergeSort([1, 2, 3, 4, 5, 6, 7, 90, 21, 23, 45]))
 
-a = 1
-b = None
-print(a > b)
-# print(c)
+# a = 1
+# b = None
+# print(a > b)
+# # print(c)
+a = 10
+b = a%3
+print(b)
