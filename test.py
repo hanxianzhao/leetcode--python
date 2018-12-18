@@ -26,5 +26,5 @@
 # print(a > b)
 # # print(c)
 a = 10
-b = a%3
+b = a**0.5
 print(b)
