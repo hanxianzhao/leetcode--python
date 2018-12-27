@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e074121-9b5e-43bc-98f6-24efcd83f5b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/中序遍历二叉树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树的锯齿形遍历.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="中序遍历二叉树.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="中序遍历二叉树.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/中序遍历二叉树.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="25">
+              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="二叉树的锯齿形遍历.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/二叉树的锯齿形遍历.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="46" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -101,6 +110,8 @@
         <option value="$PROJECT_DIR$/数组-一处元素.py" />
         <option value="$PROJECT_DIR$/数组-移除元素.py" />
         <option value="$PROJECT_DIR$/中序遍历二叉树.py" />
+        <option value="$PROJECT_DIR$/二叉树的锯齿形便利.py" />
+        <option value="$PROJECT_DIR$/二叉树的锯齿形遍历.py" />
       </list>
     </option>
   </component>
@@ -571,7 +582,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="934" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="934" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -604,13 +615,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/电话号码的字母组合.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/删除链表的倒数第N个节点.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -956,8 +960,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/中序遍历二叉树.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="25">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树的锯齿形遍历.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="46" selection-end-column="47" />
         </state>
       </provider>
     </entry>
