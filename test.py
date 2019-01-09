@@ -25,6 +25,16 @@
 # b = None
 # print(a > b)
 # # print(c)
-a = 10
-b = a**0.5
-print(b)
+# a = 10
+# b = a**0.5
+# print(b)
+
+class Node(object):
+    def __init__(self,val):
+        self.val = val
+        self.next = None
+
+a = Node(3)
+a.next = Node(2)
+
+print(a.next.val)
