@@ -36,5 +36,8 @@ class Node(object):
 
 a = Node(3)
 a.next = Node(2)
-
-print(a.next.val)
+list1 = []
+while a != None:
+    list1.append(a.val)
+    a = a.next
+print(list1)
